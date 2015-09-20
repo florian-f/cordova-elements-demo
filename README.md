@@ -15,6 +15,8 @@ Then, to build and run the app:
 * copy the polymer app into cordova's www directory `cp -r dist/* cordova-app/www/`
 * In `cordova-app/`, run `cordova run android`.
 
+<img src="https://github.com/florian-f/cordova-elements-demo/blob/image/Screenshot_2.png" width="25%">
+
 ## Some Notes
 
 * This doesn't work with vulcanize at the moment so I removed the vulcanize task from the gulpfile for now. 
