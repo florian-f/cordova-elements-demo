@@ -1,14 +1,20 @@
 # Cordova Elements Demo
 
-This is a very simple demo of [cordova-elements](https://github.com/florian-f/cordova-elements). The Polymer app was created with the [Yeoman Generator for Polymer projects](https://github.com/yeoman/generator-polymer). The Cordova app was created by running `cordova create cordova-app`. 
+This is a very simple demo of [cordova-elements](https://github.com/florian-f/cordova-elements). The Polymer app was created with the [Yeoman Generator for Polymer projects](https://github.com/yeoman/generator-polymer). 
 
-If you want to try and build the app yourself you first need to 
 
-* add the android platform: in `cordova-app/`, run `cordova platform add android`.
-* add the plugins: in `cordova-app/`, run `cordova plugin add cordova-plugin-device`, `cordova plugin add cordova-plugin-network-information` and `cordova plugin add cordova-plugin-device-motion`.
+
+If you want to build and run the app yourself on a device/ emulator you first need to 
+
+* create a cordova project `cordova create cordova-app`. 
+* go to the project directory: `cd cordova-app/`
+* add the android platform:  run `cordova platform add android`.
+* add the plugins: run `cordova plugin add cordova-plugin-device`, `cordova plugin add cordova-plugin-network-information` and `cordova plugin add cordova-plugin-device-motion`.
 
 Then, to build and run the app:
 
+* `node install`
+* `bower install`
 * run `gulp` 
 * delete this file: `rm dist/bower_components/web-animations-js/web-animations.min.js*.gz`
 * empty cordova's www directory `rm -r cordova-app/www/*`
